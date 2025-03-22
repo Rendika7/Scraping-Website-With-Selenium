@@ -22,10 +22,26 @@ Here’s a sample of the collected data:
 | Zglow Clinic        | Jakarta Timur, DKI Jakarta, Indonesia | 51 - 200 karyawan| Hospital & Health Care      | [https://www.zglowclinic.id/](https://www.zglowclinic.id/)  | BEAUTICIAN KLINIK KECANTIKAN | Serpong, Tangerang Selatan, Banten | Full Time           | 1 – 3 tahun      | Tidak Ditampilkan | Minimal Sarjana (S1)   | +628112167711         | marketing.bmi0101@gmail.com |
 | PT ABADI TIMUR MANDIRI | Jakarta Selatan, DKI Jakarta, Indonesia | 11 - 50 karyawan | Renewables & Environment    | [https://www.instagram.com/ucoku.id](https://www.instagram.com/ucoku.id) | HSE Officer               | Gedangan, Kab. Sidoarjo, Jawa Timur | Full Time           | 1 – 3 tahun      | Tidak Ditampilkan | Minimal Sarjana (S1)   | +628119329818         | Tiffany@ucoku.com           |
 
+## Project Directory Structure
+
+```plaintext
+.
+├── 1. scraper-idx.ipynb                Jupyter Source File        50 KB
+├── 2. scraper-kalibrr.ipynb             Jupyter Source File        4.005 KB
+├── 3. scraper-indonesia_investments.ipynb Jupyter Source File        8 KB
+├── 4. scraper-companies-website.ipynb   Jupyter Source File        113 KB
+├── 5. scraper-glints.ipynb              Jupyter Source File        35 KB
+├── requirements.txt                    Text Document              7 KB
+```
+
 ## Requirements
-- Python 3.x
-- Selenium
-- WebDriver (ChromeDriver, GeckoDriver, etc.)
+To install the required dependencies, use the following command after cloning this repository:
+
+```
+pip install -r requirements.txt
+```
+
+This will install the necessary libraries and dependencies such as Selenium and others for scraping tasks.
 
 ## License
 This project is licensed under the MIT License.
